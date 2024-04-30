@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/3.1.1/iconify.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>"Your Name"</title>
+</head>
+<body>
+    <main>
+            <!-----------NAVBAR--------->
+         <section id="hero">
+            <header class="container relative mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center" data-aos="zoom-in-down" data-aos-delay="900">
+              <a href="#" class="flex items-center whitespace-nowrap text-3xl font-bold text-gray-700"><h3>"Your Name"</h3></a>
+              <input type="checkbox" class="peer hidden" id="navbar-open" />
+              <label class="absolute top-5 right-5 cursor-pointer lg:hidden" for="navbar-open">
+                <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </label>
+              <nav aria-label="Header Navigation" class="peer-checked:pt-8 peer-checked:max-h-80 flex max-h-0 w-full flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
+                <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0 font-medium">
+                  <li class="lg:mr-12"> <a href="#home" class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-gray-700 transition-all duration-300 ease-in-out hover:border-b-[#91A64C]">Home</a>
+                  </li>
+      
+                  <li class="lg:mr-12"> <a href="#about" class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-gray-700 transition-all duration-300 ease-in-out hover:border-b-[#91A64C]">About Us</a>
+                  </li>
+      
+                  <li class="lg:mr-12"> <a href="#services" class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-gray-700 transition-all duration-300 ease-in-out hover:border-b-[#91A64C]">Services</a>
+                  </li>
+                </ul>
+                <hr class="mt-4 w-full lg:hidden" />
+                <div class="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
+                  <a href="#" title="" class="whitespace-nowrap rounded font-medium transition-all duration-200 focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2 text-gray-700"> Log in </a>
+      
+                  <a href="#" title="" class="whitespace-nowrap rounded-md bg-gradient-to-r from-[#729300] to-[#91A64C] px-5 py-3 font-medium text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2">Get Started</a>
+                </div>
+              </nav>
+            </header>
+          </section>
+
+        <!-------HERO-SECTION------->
+        <section class="text-white body-font bg-[#AE9400]">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-white" data-aos="fade-right" data-aos-delay="600">The easiest way to make your online payments.</h1>
+                    <p class="mb-8 leading-relaxed text-white" data-aos="fade-right" data-aos-delay="600">
+                        Convert your airtime to cash, make & receive payments, instant airtime and data
+                        delivery, make bill payments with "Your Name". The all-in-one payments app.
+                    </p>
+                    <div class="flex lg:flex-row md:flex-col">
+                        <a href="#" title="" class="me-4" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
+                            <img src="/Assets/Bd-ios-btn.png" alt="">
+                        </a>
+
+                        <a href="#" title="" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="700"> 
+                            <img src="/Assets/Bd-app-btn.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                    <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+                </div>
+            </div>
+        </section>
+
+
+        <!-----------------JOIN-OUR-COMMUNITY----------->
+        <section class="container p-6 mx-auto space-y-3 dark:bg-gray-800 dark:text-white mt-24">
+            <h4 class="text-xl font-bold text-gray-700 capitalize dark:text-gray-300 md:text-3xl text-center">Join over <span class="text-[#AE9400]"> 100k 
+            </span> people who use <span class="text-[#AE9400]"> "Your Name" </span>.</h4>
+            <div class="flex items-center justify-center">
+                <div class="grid gap-8 my-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+                    <!-- cards -->
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-48 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <h5 class="text-lg font-bold text-[#AE9400] py-4">Instant Airtime to Cash</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Convert your airtime to cash in seconds using the new and improved Airtime to
+                                        cash service.</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-48 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <h5 class="text-lg font-bold text-[#AE9400] py-4">Airtime Topup</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Purchase airtime for MTN, Glo, 9mobile & Airtel at the best possible / discounted rates.</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-48 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <h5 class="text-lg font-bold text-[#AE9400] py-4">Data Purchase</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">We offer the best rates on data purchase for all available networks in Nigeria.</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+        
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="2000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-48 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <h5 class="text-lg font-bold text-[#AE9400] py-4">Bill Payments</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Pay for your Tv/Cable (Dstv, Gotv, etc.), Internet, Electricity & other merchants using the "Your Name" app.</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+        
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="2000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-48 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <h5 class="text-lg font-bold text-[#AE9400] py-4">Airtime Payments</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Send and receive payments, pay bills & Receive & send cash using "Your Name".</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="2000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-48 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <h5 class="text-lg font-bold text-[#AE9400] py-4">Send & Receive Money</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">With "Your Name", you can send & receive money with ease. Send money to bank, merchants & other users instantly.</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="1000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-48 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <h5 class="text-lg font-bold text-[#AE9400] py-4">Bulk SMS</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">With "Your Name", you can send & receive money with ease. Send money to bank, merchants & other users instantly.</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="1000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-48 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <h5 class="text-lg font-bold text-[#AE9400] py-4">Recharge Printing</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">With "Your Name", you can send & receive money with ease. Send money to bank, merchants & other users instantly.</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------FAST-ACCURATE-RELIABLE----------->
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-col text-center w-full mb-20">
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-[#AE9400]">Why "Your Name"?</p>
+                <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Fast, Accurate & Reliable.</h2>
+              </div>
+
+              <div class="flex flex-wrap -m-4 text-center">
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg bg-gradient-to-b from-[#AE9400] via-[#F8FEFE] to-[#FCFBF7]">
+                    <i class="fa-solid fa-rocket"></i>
+                    <h2 class="title-font font-medium text-3xl text-gray-900 my-4">Seamless Transactions.</h2>
+                    <p class="leading-relaxed">"Your Name" is structured in a
+                        manner that makes it easy to use so
+                        that you can conveniently access &
+                        perform transactions.
+                    </p>
+                    <a href="">
+                        <p class="leading-relaxed text-[#AE9400]">Learn More &#62;</p>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg bg-gradient-to-b from-[#AE9400] via-[#F8FEFE] to-[#FCFBF7]">
+                    <i class="fa-solid fa-headset"></i>
+                    <h2 class="title-font font-medium text-3xl text-gray-900 my-4">Customer Support.</h2>
+                    <p class="leading-relaxed">Get prompt response to your
+                        complaints, issues or enquiries by
+                        using any of our available call or social
+                        channels.
+                    </p>
+                    <a href="">
+                        <p class="leading-relaxed text-[#AE9400]">Contact Us &#62;</p>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg bg-gradient-to-b from-[#AE9400] via-[#F8FEFE] to-[#FCFBF7]">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2 class="title-font font-medium text-3xl text-gray-900 my-4">Security.</h2>
+                    <p class="leading-relaxed">"Your Name" has embraced
+                        technology in its operations to ensure
+                        that you can peform transactions
+                        securely and efficiently.
+                    </p>
+                    <a href="">
+                        <p class="leading-relaxed text-[#AE9400]">Read More &#62;</p>
+                    </a>
+                  </div>
+                </div>
+
+                 <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg bg-gradient-to-b from-[#AE9400] via-[#F8FEFE] to-[#FCFBF7]">
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <h2 class="title-font font-medium text-3xl text-gray-900 my-4">Fast & Reliable.</h2>
+                    <p class="leading-relaxed">With experience, we have learnt in the
+                        past years to be able to fully optimize
+                        our platform for speed and
+                        dependability.
+                    </p>
+                    <a href="">
+                        <p class="leading-relaxed text-[#AE9400]">More Info &#62;</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+            <!--------TESTIMONIALS------------->
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                <i class="fa-solid fa-quote-right"></i>
+                <p class="leading-relaxed text-lg">"The app is working perfectly just like the website. "Your Name" is doing a great job. It's fast,reliant and operates even when network services is very low. It is also very easy to use. They are fast at responding to client's need either through whatsapp or live chat. More for ⭐⭐⭐⭐ you."</p>
+                <span class="inline-block h-1 w-10 rounded bg-[#AE9400] mt-8 mb-6"></span>
+                <p class="text-gray-500"> Prince Timothy Oyegbile</p>
+              </div>
+            </div>
+          </section>
+
+
+          <!-----------FOOTER----------->
+          <footer class="text-white body-font bg-[#AE9400]">
+            <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+              <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                  <span class="ml-3 text-xl">Fast, Accurate & Reliable</span>
+                </a>
+              </div>
+              <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Products</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-white hover:text-gray-800">Airtime to Cash</a>
+                    </li>
+                    <li>
+                      <a class="text-white hover:text-gray-800">Moneypin</a>
+                    </li>
+                    <li>
+                      <a class="text-white hover:text-gray-800">Data Topup</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Company</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-white hover:text-gray-800">About</a>
+                    </li>
+                    <li>
+                      <a class="text-white hover:text-gray-800">Our Blog</a>
+                    </li>
+                    <li>
+                      <a class="text-white hover:text-gray-800">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a class="text-white hover:text-gray-800">Terms of Service</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Developers</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-white hover:text-gray-800">API Reference</a>
+                    </li>
+                    <li>
+                      <a class="text-white hover:text-gray-800">Documentation</a>
+                    </li>
+                    <li>
+                      <a class="text-white hover:text-gray-800">Libraries</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="title-font font-medium tracking-widest text-sm mb-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                  </h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-white hover:text-gray-800">support@"Your Name".com.ng</a>
+                    </li>
+                    <li>
+                      <a class="text-white hover:text-gray-800">(+234) 708 064 6896</a>
+                    </li>
+                    <li>
+                      <a class="text-white hover:text-gray-800">Seamless transactions, limitless
+                        possibilities.</a>
+                    </li>
+                    <li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+              <div class="text-center py-6 px-5 sm:flex-row">
+                <p class="text-white text-sm text-center sm:text-center border-1 border-t py-4">© 2023 · "Your Name" Technology Ltd.
+                </p>
+              </div>
+          </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>    
+</html>
